@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables</title>
+  </head>
+  <body>
+    <style>
+      :root {
+        /* colors */
+        --bg-red: red;
+        --bg-cyan: cyan;
+
+        /* fontsize */
+        --fs-20: 40px;
+        --fs-12: 12px;
+      }
+
+      h1{
+        background: var(--bg-cyan);
+      }
+      h2{
+        background: var(--bg-red);
+      }
+      p{
+        font-size: var(--fs-20);
+      }
+
+    </style>
+
+    <h1>this is h1 element</h1>
+    <h2>this is h2 element</h2>
+    <p>this is paragraph</p>
+  </body>
+</html>

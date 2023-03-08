@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+  </head>
+  <body>
+    <style>
+      /* universal selector {*} */
+      *{
+        color: crimson !important;
+      }
+
+      /* element selector {tag name}*/
+      h1 {
+        color: blue;
+      }
+      h2 {
+        color: red;
+      }
+
+      /* class selector {.} */
+      .sel_elm {
+        color: pink;
+      }
+
+      /* ID selector {#} */
+      #sel_elm {
+        color: cyan;
+      }
+
+      /* id selector have high priority than class selector */
+      #h2_elm {
+        color: #0E8388 !important;
+      }
+      .h2_elm {
+        color: rgba(42, 165, 56,0.5) !important;
+      }
+    </style>
+
+    <h1>H1 Element</h1>
+    <h1>H1 Element</h1>
+    <h1 class="sel_elm">H1 Element</h1>
+    <h1 id="sel_elm">H1 Element</h1>
+    <h1>H1 Element</h1>
+
+    <h2>H2 Element</h2>
+    <h2>H2 Element</h2>
+    <h2>H2 Element</h2>
+    <h2 id="h2_elm" class="h2_elm">H2 Element</h2>
+    <h2 class="h2_elm">H2 Element</h2>
+    <h2 id="h2_elm">H2 Element</h2>
+
+    <p>i am paragraph element</p>
+    <div>i am a div content</div>
+    <span>i am a span content</span>
+  </body>
+</html>

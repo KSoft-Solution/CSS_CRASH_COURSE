@@ -1,4 +1,7 @@
 ## Instruction
 
-Currently we are Learning CSS3 
- 
+Currently we are Learning CSS3
+
+syntax
+selectors
+variables
