@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+  </head>
+  <body>
+    <style>
+        div{
+            width: 400px;
+            height: 100px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+      table {
+        padding: 10px;
+        border: 1px solid red;
+        width: 500px;
+        /* border-collapse: separate; */
+        /* border-collapse: collapse; */
+        /* border-collapse: inherit; */
+        /* border-collapse: initial; */
+        /* border-collapse: none; */
+
+        /* table-layout: fixed; */
+        /* table-layout: auto; */
+        empty-cells: hide;
+      }
+      table thead {
+        background: cyan;
+        color: red;
+        font-size: 20px;
+      }
+      table caption {
+        color: red;
+        background: yellow;
+        border: 1px solid;
+        padding: 10px;
+        font-weight: 500;
+        font-size: larger;
+        caption-side: bottom;
+      }
+
+      table td,
+      th {
+        border: 1px solid;
+        padding: 10px;
+        text-align: center;
+      }
+
+      table tbody tr:nth-child(even) {
+        color: rgb(218, 10, 218);
+        background: rgb(233, 165, 165);
+      }
+
+      table tbody {
+        overflow-x: auto;
+      }
+    </style>
+
+    <div>
+      <table>
+        <caption>
+          12th marksheet
+        </caption>
+        <thead>
+          <tr>
+            <th>sl no.</th>
+            <th>name</th>
+            <th>math</th>
+            <th>physics</th>
+            <th>chemistry</th>
+            <th>botany</th>
+            <th>zoology</th>
+            <th>english</th>
+            <th>IT</th>
+            <th>sanskrit</th>
+            <th>MIL</th>
+            <th>Hindi</th>
+            <th>Remarks</th>
+            <th>percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>subhasri</td>
+            <td>99</td>
+            <td>60</td>
+            <td>65</td>
+            <td>40</td>
+            <td>40</td>
+            <td>70</td>
+            <td>75</td>
+            <td>95</td>
+            <td>80</td>
+            <td>70</td>
+            <td>pass</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>sibani</td>
+            <td>60</td>
+            <td>72</td>
+            <td>75</td>
+            <td>80</td>
+            <td>85</td>
+            <td>93</td>
+            <td>56</td>
+            <td>68</td>
+            <td>67</td>
+            <td>89</td>
+            <td>pass</td>
+            <td>89%</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>subhalaxmi</td>
+            <td>01</td>
+            <td>09</td>
+            <td>10</td>
+            <td>15</td>
+            <td>53</td>
+            <td>93</td>
+            <td>56</td>
+            <td>68</td>
+            <td>67</td>
+            <td>89</td>
+            <td>fail</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>gandu</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+            <td>100</td>
+            <td>00</td>
+            <td>100</td>
+            <td>00</td>
+            <td>100</td>
+            <td>100</td>
+            <td>fail</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>alekha</td>
+            <td>05</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+            <td>100</td>
+            <td>00</td>
+            <td>100</td>
+            <td>00</td>
+            <td>100</td>
+            <td>100</td>
+            <td>fail</td>
+            <td>10%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
