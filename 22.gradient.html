@@ -4,24 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Opacity</title>
+    <title>Gradient</title>
   </head>
   <body>
     <style>
-      div {
+      #lin_gradient {
         height: 100px;
         width: 100px;
-        margin: 10px;
-        padding: 10px;
-        background: crimson;
-        color: blanchedalmond;
-        border-radius: 10px;
-      }
+        /* background: #a22121; */
 
-      div:hover{
-        opacity:.7;
+        /* background: linear-gradient(red, green, pink, cyan); */
+        /* background: radial-gradient(pink, orange, red, blue, green); */
+
+
+        background: linear-gradient(50deg, red, pink);
       }
     </style>
-    <div>div1</div>
+    <div id="lin_gradient"></div>
   </body>
 </html>

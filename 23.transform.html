@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+  </head>
+  <body>
+    <style>
+        #container{
+            height: 200px;
+            width: 200px;
+            background: #a21717;
+            border-radius: 10px;   
+            /* transform: translate(120px , 120px ); */
+            /* transform: rotate(90deg); */
+            /* transform: scale(.5); */
+            /* transform: skew(20deg); */
+            /* transform: skewX(10deg); */
+            transform: skewY(5deg);
+        }
+        #container div{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(215, 131, 21);
+        }
+    </style>
+    <h1>Transform - Translate</h1>
+    <div id="container">
+        <div></div>
+        <div></div>
+    </div>
+  </body>
+</html>
