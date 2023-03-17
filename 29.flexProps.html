@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Property</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        height: 4cm;
+        width: 100%;
+        background: #000;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        flex-wrap: wrap;
+        
+      }
+      .one,
+      .two,
+      .three,
+      .four,
+      .five {
+        width: 200px;
+        height: 30%;
+        /* margin: 10px; */
+        /* position: relative;
+        z-index: -9999 !important; */
+      }
+
+      .one {
+        background: red;
+      }
+
+      .two {
+        background: cyan;
+      }
+
+      .three {
+        background: pink;
+      }
+      .four {
+        background: violet;
+      }
+      .five{
+        background: orange;
+      }
+    </style>
+    <div class="container">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+      <div class="four"></div>
+      <!-- <div class="five"></div> -->
+    </div>
+  </body>
+</html>
